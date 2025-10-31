@@ -8,8 +8,8 @@ name: sdk-schedules-job-schedule
 # Please do not edit directly.
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "35 9/12 * * *"
+ # schedule:
+    ## - cron: "35 9/12 * * *"
   pull_request:
     branches:
       - main
